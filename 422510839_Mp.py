@@ -24,7 +24,6 @@ OUTPUT_FILE = "supermarket_results.csv"
 
 
 # Customer Process
-
 def customer(env, cashiers, waits, services, queues):
 
     # Record customer arrival time
@@ -52,7 +51,6 @@ def customer(env, cashiers, waits, services, queues):
 
 
 # Customer Generator
-
 def generate_customers(
     env,
     cashiers,
